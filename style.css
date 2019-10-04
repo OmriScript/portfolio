@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    background-color: rgb(100, 181, 212);
+    color: #ddd;
+}
+
+#home {
+    /* background-color: #333; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    /* color: rgb(167, 18, 180); */
+}
+
+a {
+    text-decoration: none;
+    /* color: #ddd; */
+    color: #ddd;
+    display: inline;
+    /* background-color: rgb(100, 181, 212); */
+    /* background-color: rebeccapurple; */
+    padding: 5px;
+    width: 100px;
+}
+
+a:hover {
+    color: black;
+}
+
+#contactlink 
+{
+    text-align: right;
+}
+
+
+/* a:hover {
+   cursor: pointer; 
+} */
+
+
+
+#portfolio {
+    /* font-size: 2rem; */
+    color: rgb(100, 181, 212);
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* rain animation*/
+  #home:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(rain1.png);
+    z-index: -1;
+    animation: home 0.6s linear infinite;
+  }
+  
+  @keyframes home {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 20% -1000%;
+    }
+    
+  }
+  /* end of rain animation */
+  
+  
