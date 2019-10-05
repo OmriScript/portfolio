@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9fcd3613c.js" crossorigin="anonymous"></script>
     <title>My portfolio</title>
 </head>
 <body>
@@ -17,39 +18,72 @@
             <h1>Hi, I'm Omri.</h1>
             <h3>A front-end developer who loves creating things from scratch</h3>
         </div>
-        <a href="#portfolio">My projects</a>
-    </div>
-
-        <div id="portfolio">
-        <h1>Projects</h1>
-        <div class="project-card">
-            <h3>First Project</h3>
-            <div class="tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Javascript</span>
-            </div>
-            <a href="#" class="toproject">Project/Demo</a>
-            <a href="#" class="tocode">Code</a>
+        <div id="myprojectslink">
+        <!-- <a href="#portfolio">My projects</a> -->
+        <!-- <i class="fas fa-angle-down fa-3x"></i> -->
+        <div class="arrow bounce">
+            <a class="fa fa-angle-down fa-3x" href="#portfolio"></a>
         </div>
 
-        <div class="project-card">
+
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <h1>Projects</h1>
+        <div class="projects-wrapper">
+            <div class="project-card">
+                <h3>Temperature Converter</h3>
+                <div class="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                </div>
+                    <div class="project-links">
+                    <a href="https://omriscript.github.io/Temperature-Converter/" target="_blank" class="toproject">Project/Demo</a>
+                    <a href="https://github.com/OmriScript/Temperature-Converter" target="_blank" class="tocode">Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
                 <h3>Second Project</h3>
                 <div class="tech">
                     <span>HTML</span>
                     <span>CSS</span>
                 </div>
-                <a href="#" class="toproject">Project/Demo</a>
-                <a href="#" class="tocode">Code</a>
+                <div class="project-links">
+                    <a href="#" target="_blank" class="toproject">Project/Demo</a>
+                    <a href="#" target="_blank" class="tocode">Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Third Project</h3>
+                <div class="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank" class="toproject">Project/Demo</a>
+                    <a href="#" target="_blank" class="tocode">Code</a>
+                </div>
+                
+            </div>
         </div>
     </div>
 
 
     <div id="contact">
-        <h1>Contact Me</h1>
-        <p>Email: omrimadar2@gmail.com</p>
-        <p>Linkin: </p>
-        <p>Github: </p>
+        <div id="contact-container">
+            <h1>Contact Me</h1>
+            <p>I am passionate about web development and strive to learn as much as I can.</p>
+            <p>I'm looking for a job where I will have the chance to sharpen my skills and learn from the best.</p>
+            <p>You can contact me through my email: </p>
+            <p><strong>omrimadar2@gmail.com</strong></p>
+            <p>and look at my
+            <a href="https://github.com/OmriScript"><i class="fab fa-github-square"></i> Github</a>and
+            <a href="https://www.linkedin.com/in/omri-madar-7bb925179/">Linkedin <i class="fab fa-linkedin"></i></a>.</p>
+        </div>
     </div>
 
 
